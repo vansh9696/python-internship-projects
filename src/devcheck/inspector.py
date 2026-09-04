@@ -5,8 +5,8 @@ import subprocess
 import sys
 from typing import Any, Dict, List
 
-DEFAULT_REQUIRED_TOOLS = ["git", "python"]
-DEFAULT_ENV_VARS = ["PATH", "OS", "USERNAME"]
+DEFAULT_REQUIRED_TOOLS = ["git", "python3", "docker"]
+DEFAULT_ENV_VARS = ["PATH", "SHELL", "EDITOR"]
 
 def check_python_version(min_major: int = 3, min_minor: int = 9) -> Dict[str, Any]:
     current = sys.version_info
