@@ -1,4 +1,4 @@
-# devcheck
+# Python Internship - CLI Diagnostics Tool and Devloper environment health inspector CLI
 
 Inspects workstation status and yields a deterministic developer-environment health report.
 
